@@ -10,7 +10,7 @@ WORDPRESS_DB_NAME=$WORDPRESS_DB_NAME
 WORDPRESS_DB_PASSWORD=$WORDPRESS_DB_PASSWORD
 EOF
 
-echo "$BACKUP_TIME backup " >> backup-wp-cli-cron
+echo "$BACKUP_TIME /bin/backup.sh " >> backup-wp-cli-cron
 
 crontab backup-wp-cli-cron
 
