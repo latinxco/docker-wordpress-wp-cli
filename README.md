@@ -1,3 +1,6 @@
+**DEPRECATED**
+Converted all images to use alpine which allows the wordpress official cli image to be used directly.
+
 # docker-wordpress-wp-cli
 
 ![Docker Stars](https://img.shields.io/docker/stars/conetix/wordpress-with-wp-cli.svg)
